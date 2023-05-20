@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 :root{
-    --clr-blue: #1A91F0;
+    --clr-blue: #04c82fdd;
     --clr-blue-mid: #1170CD;
     --clr-blue-dark: #1A1C6A;
     --clr-white: #fff;
-    --clr-bright: #EFF2F9;
+    --clr-bright: #c4f5ed;
     --clr-dark: #1e2532;
     --clr-black: #000;
-    --clr-grey: #656e83;
-    --clr-green: #084C41;
+    --clr-grey: #a679ef;
+    --clr-green: #082A4D;
     --font-poppins: 'Poppins', sans-serif;
     --font-manrope: 'Manrope', sans-serif;;
     --transition: all 300ms ease-in-out;
@@ -35,6 +35,7 @@ html{
 body{
     font-size: 1.6rem;
     font-family: var(--font-poppins);
+  
    
 }
 
@@ -186,8 +187,11 @@ a{
 .navbar{
     height: 80px;
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .navbar .container{
@@ -234,7 +238,7 @@ a{
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     margin-top: 3.2rem;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .lg-title{
     margin: 1.4rem 0;
@@ -615,7 +619,7 @@ a{
     border-radius: 5px;
     display: grid;
     grid-template-columns: 32% auto;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
     overflow: hidden;
 }
 

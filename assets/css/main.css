@@ -325,10 +325,13 @@ a{
 }
 
 /* media queries */
+
+
 @media screen and (min-width: 768px){
     .section-two .section-items{
         grid-template-columns: repeat(2, 1fr);
     }
+    
 }
 
 @media screen and (min-width: 992px){
@@ -633,12 +636,15 @@ a{
     text-align: center;
 }
 .preview-image{
-    width: 120px;
-    height: 120px;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     overflow: hidden;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .preview-image img{
     width: 100%;

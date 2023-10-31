@@ -1,7 +1,6 @@
 # Resume Builder App
 
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/Resume_Builder_App)
-![GitHub license](https://img.shields.io/github/license/your-username/Resume_Builder_App)
+
 
 This is a simple Resume Builder website that allows users to create and preview their resumes, with the ability to download the final resume as a PDF. It's built using HTML, CSS, and JavaScript, and it comes with a clean user interface.
 

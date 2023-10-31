@@ -29,4 +29,4 @@ These instructions will help you set up a copy of the project on your local mach
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone 
+   git clone  https://github.com/IamSanjayGawai/Resume_Builder_App.git
